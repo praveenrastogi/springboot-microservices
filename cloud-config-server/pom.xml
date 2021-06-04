@@ -75,7 +75,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>dailycodebuffer/cloud-config-server</repository>
+                     <username>techboosters2019</username>
+                     <password>India@123</password>
+					<repository>techboosters2019/cloud-config-server</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>

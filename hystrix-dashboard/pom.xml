@@ -80,7 +80,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>dailycodebuffer/hystrix-dashboard</repository>
+                     <username>techboosters2019</username>
+                     <password>India@123</password>
+					<repository>techboosters2019/hystrix-dashboard</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>

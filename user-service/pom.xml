@@ -116,8 +116,8 @@
 					</execution>
 				</executions>
 				<configuration>
-                                        <username>techboosters2019</username>
-                                        <password>India@123</password>
+                     <username>techboosters2019</username>
+                     <password>India@123</password>
 					<repository>techboosters2019/user-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
