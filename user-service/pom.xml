@@ -15,7 +15,7 @@
 	<description>user-service</description>
 
 	<properties>
-		<java.version>11</java.version>
+                <java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 
@@ -83,6 +83,20 @@
 	</dependencyManagement>
 	<build>
 		<plugins>
+
+<!--
+           <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8.0_292</source>
+                    <target>1.8.0_292</target>
+                    <fork>true</fork>
+                    <executable>/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/bin/javac</executable>
+                </configuration>
+            </plugin>
+-->
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -102,7 +116,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>springboot-microservices/user-service</repository>
+                                        <username>techboosters2019</username>
+                                        <password>India@123</password>
+					<repository>techboosters2019/user-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
